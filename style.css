@@ -1,0 +1,75 @@
+body {
+    background-color: grey; /*цвет фона*/
+    display: flex; /*принцеп расположения на странице*/
+    flex-direction: column;
+    align-items: center; /*выравниваем все элемты по центру*/
+    text-align: center; /*выравнивание такста по центру*/
+    justify-content: center; /*полное выравнивание*/
+}
+
+     .white_block{
+        background-color: white;  /*цвет блока*/
+        width: 85%; /*разрешение по экрану*/
+        border-radius: 30px; /*обрезание углов*/
+}
+
+ .white_block img{
+    width: 400px ; 
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+  .white_block p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ .header{
+    width: 50%;
+    height: 50px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+
+
+ .gl{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .ob{
+   color: blue;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .av{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .gl:hover{
+   color: gray;
+ }
+
+ .ob:hover{
+   color: gray;
+ }
+
+ .av:hover{
+   color: gray;
+ }
